@@ -28,5 +28,5 @@ The Rarity contract contains a `class` for the summoner. This is a reserved keyw
 
 # Links
 
-[wiki](rarity.wiki)
-[discord](https://discord.gg/F5URbkcvmD)
+- [wiki](rarity.wiki)
+- [discord](https://discord.gg/F5URbkcvmD)
