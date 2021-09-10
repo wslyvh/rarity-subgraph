@@ -1,0 +1,15 @@
+{
+  "name": "rarity-subgraph",
+  "version": "0.0.1",
+  "author": "wslyvh",
+  "license": "MIT",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ wslyvh/rarity subgraph.yaml"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.21.1",
+    "@graphprotocol/graph-ts": "0.20.0"
+  }
+}

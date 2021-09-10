@@ -1,0 +1,11 @@
+type Owner @entity {
+  id: ID!
+  summoners: [Summoner!]! @derivedFrom(field: "owner")
+}
+
+type Summoner @entity {
+  id: ID!
+  owner: Owner!
+  role: BigInt!
+  level: BigInt!
+}
